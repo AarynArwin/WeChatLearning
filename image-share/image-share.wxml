@@ -1,0 +1,8 @@
+<!--pages/image-share/image-share.wxml-->
+<view>
+    <canvas style="width:100%;height:{{contentHeight}}px;" canvas-id="myCanvas" bindtap="savePic"></canvas>
+    <!-- <image class='temp-image' src='{{tempUrl}}'></image> -->
+     <!-- <view class="edit-footer">
+        <button class="button-done" type="primary" bindtap="savePic">保存图片</button>
+    </view> -->
+</view>
